@@ -12,6 +12,7 @@
 		49095AA31EB43EFC002D49E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49095AA11EB43EFC002D49E0 /* Main.storyboard */; };
 		49095AA51EB43EFC002D49E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49095AA41EB43EFC002D49E0 /* Assets.xcassets */; };
 		49095AA81EB43EFC002D49E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49095AA61EB43EFC002D49E0 /* LaunchScreen.storyboard */; };
+		49095AB01EB44A20002D49E0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49095AAF1EB44A20002D49E0 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		49095AA41EB43EFC002D49E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49095AA71EB43EFC002D49E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49095AA91EB43EFC002D49E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49095AAF1EB44A20002D49E0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				49095A9D1EB43EFC002D49E0 /* AppDelegate.swift */,
 				49095A9F1EB43EFC002D49E0 /* ViewController.swift */,
+				49095AAF1EB44A20002D49E0 /* DetailViewController.swift */,
 				49095AA11EB43EFC002D49E0 /* Main.storyboard */,
 				49095AA41EB43EFC002D49E0 /* Assets.xcassets */,
 				49095AA61EB43EFC002D49E0 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49095AB01EB44A20002D49E0 /* DetailViewController.swift in Sources */,
 				49095AA01EB43EFC002D49E0 /* ViewController.swift in Sources */,
 				49095A9E1EB43EFC002D49E0 /* AppDelegate.swift in Sources */,
 			);
@@ -265,6 +269,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ParanoidPenguinProductions.StormViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -278,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ParanoidPenguinProductions.StormViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
